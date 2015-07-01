@@ -1,0 +1,26 @@
+{
+  "name": "srpc",
+  "version": "0.0.1",
+  "description": "An easy to use RPC implementation using json-rpc specification.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axfab/srpc"
+  },
+  "keywords": [
+    "rpc",
+    "json-rpc",
+    "json",
+    "remote",
+    "procedure-call"
+  ],
+  "author": "Fabien Bavent <fabien.bavent@gmail.com>",
+  "license": "BSD Revised",
+  "bugs": {
+    "url": "https://github.com/axfab/srpc/issues"
+  },
+  "homepage": "https://github.com/axfab/srpc"
+}
