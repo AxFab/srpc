@@ -23,11 +23,11 @@ srv.listen(12345)
 var url = 'http://localhost:12345/'
 
 jsonrpc.connect(url, function (err, rpc) {
-  if (err) return console.error('ERROR', err)
+  if (err) return console.error(err)
 
   // Asynchronous call to the function `hello'
   rpc.hello ('World', function (err, res) {
-    if (err) return console.error('ERROR', err)
+    if (err) return console.error(err)
     console.log (res)
 
     // Close the server
